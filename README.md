@@ -16,20 +16,20 @@ This project simulates a drone-based livestock monitoring system using Reinforce
 ## Project Structure
 ```
 ├── environment/
-│ └── custom_env.py # Custom Gym environment
+│ └── custom_env.py           # Custom Gym environment
 ├── training/
-│ └── train_dqn.py # DQN training script
-│ └── train_ppo.py # PPO training script
+│ └── train_dqn.py            # DQN training script
+│ └── train_ppo.py            # PPO training script
 ├── rendering/
-│ └── render.py # Grid renderer with legend
+│ └── render.py               # Grid renderer with legend
 ├── assets/
 │ └── cow.png
 │ └── distress_cow.png
 │ └── drone.png
-├── main.py # Run environment and agent
-├── test_generalization.py # Evaluate agent on unseen positions
+├── main.py                   # Run environment and agent
+├── test_generalization.py    # Evaluate agent on unseen positions
 ├── models/
-│ └── dqn/ # Trained models and logs
+│ └── dqn/                    # Trained models and logs
 ├── README.md
 ```
 
