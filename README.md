@@ -14,8 +14,6 @@ This project simulates a drone-based livestock monitoring system using Reinforce
 - Reward System: Encourages quick detection of distressed animals and penalizes unnecessary movement.
 - Evaluation & Generalization: Models are tested on unseen initial positions to assess robustness.
 
----
-
 ## Project Structure
 ```
 ├── environment/
@@ -36,8 +34,6 @@ This project simulates a drone-based livestock monitoring system using Reinforce
 ├── README.md
 ```
 
----
-
 ## Algorithms and Architectures
 
 ### Deep Q-Network (DQN)
@@ -51,8 +47,6 @@ This project simulates a drone-based livestock monitoring system using Reinforce
   - gamma = 0.95
   - batch_size = 128
   - train_freq = 4
-
----
 
 ## How to Run
 
