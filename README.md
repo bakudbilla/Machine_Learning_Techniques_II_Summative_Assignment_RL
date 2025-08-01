@@ -4,7 +4,6 @@ This project simulates a drone-based livestock monitoring system using Reinforce
 
 <img width="488" height="570" alt="Screenshot 2025-08-01 130551" src="https://github.com/user-attachments/assets/2627f86f-fa6d-42e4-a97b-5a632b92fa79" />
 
----
 
 ## Project Features
 
