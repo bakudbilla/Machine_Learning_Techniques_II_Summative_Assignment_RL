@@ -28,7 +28,7 @@ def train_ppo(total_timesteps=100_000):
         learning_rate=3e-4,
         batch_size=64,
         gamma=0.99,
-        tensorboard_log=log_path  # Needed for naming logs
+        tensorboard_log=log_path
     )
     model.set_logger(custom_logger)
 
