@@ -4,6 +4,8 @@ This project simulates a drone-based livestock monitoring system using Reinforce
 
 <img width="488" height="570" alt="Screenshot 2025-08-01 130551" src="https://github.com/user-attachments/assets/2627f86f-fa6d-42e4-a97b-5a632b92fa79" />
 
+Find the project report here: 
+https://docs.google.com/document/d/1pSyC8VxMVSF-T1_-zC7HSBrSM5ejgo8N8od-2SDvqbc/edit?usp=sharing
 
 ## Project Features
 
@@ -53,3 +55,17 @@ This project simulates a drone-based livestock monitoring system using Reinforce
 ```
 git clone https://github.com/your-username/livestock-monitoring-rl.git
 cd livestock-monitoring-rl
+```
+2. Install dependencies
+```
+pip install -r requirements.txt
+
+```
+3. Train a model (e.g., DQN)
+```
+python training/train_dqn.py
+```
+4. Run the simulation
+```
+python main.py
+```
