@@ -28,8 +28,7 @@ https://docs.google.com/document/d/1pSyC8VxMVSF-T1_-zC7HSBrSM5ejgo8N8od-2SDvqbc/
 │ └── cow.png
 │ └── distress_cow.png
 │ └── drone.png
-├── main.py                   # Run environment and agent
-├── test_generalization.py    # Evaluate agent on unseen positions
+├── main.py                   # Run environment and agent   
 ├── models/
 │ └── dqn/                    # Trained models and logs
 ├── README.md
